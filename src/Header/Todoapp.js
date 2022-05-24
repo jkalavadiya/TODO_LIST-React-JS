@@ -67,11 +67,15 @@ function TODOApp(){
 
     const DeleteTask =(id) =>{
         // console.log("idd is ",id);
-        const updatevalue=tasklist.filter((e,index) => {
-            // console.log('index is',index);
-           return  index!==id;
-        })
-        setTaskList(updatevalue);
+        const newlist=tasklist;
+        newlist.splice(id,1);
+        console.log(newlist);
+        // const updatevalue=tasklist.filter((e,index) => {
+        //     console.log('index is',index);
+        //    return  index!==id;
+        // })
+        // setTaskList(updatevalue);
+        setTaskList([...newlist])
 
 
     }

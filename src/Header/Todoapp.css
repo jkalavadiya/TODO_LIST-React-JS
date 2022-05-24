@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 body{
     background-color: rgb(211, 199, 255);
+    font-family: 'Poppins', sans-serif;
 }
 *{
     margin: 0px;
     padding: 0px;
 }
 .heading{
+  
+
     border: 2px solid #8c60e9;
     text-align: center;
     color:#8c60e9;
@@ -20,6 +24,7 @@ body{
 ::placeholder{
     font-weight: 600;
     color:gray;
+    font-family: 'Poppins', sans-serif;
 }
 .todo
 {
@@ -41,6 +46,7 @@ body{
     font-weight:600;
     width: 80px;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 .btn:hover{
     background-color: white;
@@ -64,6 +70,7 @@ input[type=text]{
     padding:5px 20px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
     /* border: 1px solid #8c60e9; */
 }
 .list:hover{
@@ -74,6 +81,7 @@ input[type=text]{
 
 .editbtn{
     /* margin-right: 10px; */
+    font-family: 'Poppins', sans-serif;
     color: #8c60e9;
     background-color: white;
     border: 1px solid #8c60e9;
@@ -85,6 +93,7 @@ input[type=text]{
     font-weight: 600;
 }
 .deletebtn{
+    font-family: 'Poppins', sans-serif;
     color: white;
     background-color: #8c60e9;
     border: none;
